@@ -8,5 +8,6 @@ package com.company.annotation;
  */
 public @interface Myanno {
     public  String show();
-    Person() per;
+    Person per = null;
+
 }
